@@ -1,0 +1,28 @@
+PODS:
+  - BXInput (0.1.0):
+    - PinAutoLayout
+  - BXModel (0.1.0):
+    - SwiftyJSON
+  - PinAutoLayout (1.0.1)
+  - Reveal-iOS-SDK (1.6.2)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - BXInput (from `../`)
+  - BXModel (from `../../BXModel`)
+  - Reveal-iOS-SDK
+
+EXTERNAL SOURCES:
+  BXInput:
+    :path: ../
+  BXModel:
+    :path: ../../BXModel
+
+SPEC CHECKSUMS:
+  BXInput: 76ba9c08e93c6e772c89409ab509776596bf42b9
+  BXModel: 0b6f4b299271a84b0f58794deb246e7c286fcd32
+  PinAutoLayout: ab4a1a9cdd9f2b6b1ea8371c8384be1164b0865e
+  Reveal-iOS-SDK: e2250b3c155bcfac53ae223ddc1f76d08f206c33
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0

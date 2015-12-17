@@ -19,12 +19,12 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BXInput"
+  s.homepage         = "https://github.com/banxi1988/BXInput"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "banxi1988" => "banxi1988@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/BXInput.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/banxi1988/BXInput.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/banxi1988'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -37,4 +37,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'PinAutoLayout'
 end

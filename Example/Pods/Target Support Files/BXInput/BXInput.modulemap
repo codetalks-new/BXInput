@@ -1,0 +1,6 @@
+framework module BXInput {
+  umbrella header "BXInput-umbrella.h"
+
+  export *
+  module * { export * }
+}

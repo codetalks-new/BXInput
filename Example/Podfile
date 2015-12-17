@@ -3,6 +3,8 @@ use_frameworks!
 
 target 'BXInput_Example', :exclusive => true do
   pod "BXInput", :path => "../"
+  pod "BXModel", :path => "../../BXModel"
+  pod 'Reveal-iOS-SDK', :configurations => ['Debug']
 end
 
 target 'BXInput_Tests', :exclusive => true do
